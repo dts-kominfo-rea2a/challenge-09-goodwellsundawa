@@ -1,0 +1,27 @@
+.contact-card {
+  background-color: #aed9e0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  margin: auto;
+  padding: 0.8em;
+  padding-left: 2em;
+  min-width: 30%;
+  max-width: 600px;
+  margin-bottom: 2em;
+}
+
+.contact-img {
+  max-width: fit-content;
+}
+
+.contact-img > img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.contact-detail {
+  text-align: left;
+  margin-left: 2em;
+}

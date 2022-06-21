@@ -1,0 +1,8 @@
+.header {
+  margin: 2em;
+}
+
+.header > p {
+  font-style: italic;
+  font-weight: bolder;
+}
