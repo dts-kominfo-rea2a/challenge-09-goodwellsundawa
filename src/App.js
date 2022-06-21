@@ -10,8 +10,8 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      {contacts.map((element) => (
-        <Contact data={element} />
+      {contacts.map((element, index) => (
+        <Contact key={index} data={element} />
       ))}
     </div>
   );
